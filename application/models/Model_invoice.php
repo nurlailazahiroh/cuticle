@@ -10,10 +10,10 @@ class Model_invoice extends CI_Model
 		$id_user = $this->input->post('id_user');
 		$name = $this->input->post('name');
 		$alamat = $this->input->post('alamat');
-		$city = $this->input->post('kota');
+		//$city = $this->input->post('kota');
 		$kode_pos = $this->input->post('kode_pos');
 		$payment_method = $this->input->post('payment_method');
-		$ekspedisi = $this->input->post('ekspedisi');
+		//$ekspedisi = $this->input->post('ekspedisi');
 		$mobile_phone = $this->input->post('mobile_phone');
 		$tracking_id = $this->input->post('tracking_id');
 		$email = $this->input->post('email');
@@ -24,10 +24,10 @@ class Model_invoice extends CI_Model
 			'id_user' 			=> $id_user,
 			'name' 				=> $name,
 			'alamat' 			=> $alamat,
-			'city' 				=> $city,
+			//'city' 				=> $city,
 			'kode_pos' 			=> $kode_pos,
 			'payment_method' 	=> $payment_method,
-			'ekspedisi' 		=> $ekspedisi,
+			//'ekspedisi' 		=> $ekspedisi,
 			'mobile_phone' 		=> $mobile_phone,
 			'tracking_id' 		=> $tracking_id,
 			'email' 			=> $email,

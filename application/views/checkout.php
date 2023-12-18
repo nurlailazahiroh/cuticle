@@ -55,7 +55,7 @@
                                         <input type="text" id="alamat" name="alamat" class="form-control" placeholder="Your mobile phone" autocomplete="off" required>
                                     </div>
 
-                                    <div class="mb-5">
+                                    <!--<div class="mb-5">
                                         <label for="post-form-7" class="form-label">Provincy <small class="text-danger">*</small></label>
                                         <select name="provinsi" id="provinsi" class="form-control"></select>
                                     </div>
@@ -63,17 +63,17 @@
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">City <small class="text-danger">*</small></label>
                                         <select name="kota" id="kota" class="form-control"></select>
-                                    </div>
+                                    </div>-->
 
                                     <div class="mb-5">
                                         <label for="post-form-7" class="form-label">Postal Code <small class="text-danger">*</small></label>
                                         <input type="text" class="form-control" id="kode_pos" name="kode_pos" placeholder="Your mobile phone" autocomplete="off" required>
                                     </div>
 
-                                    <div class="mb-5">
+                                   <!-- <div class="mb-5">
                                         <label for="post-form-7" class="form-label">Delivery Service <small class="text-danger">*</small></label>
                                         <select name="ekspedisi" id="ekspedisi" class="form-control"></select>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                             <div class="flex mt-5">
