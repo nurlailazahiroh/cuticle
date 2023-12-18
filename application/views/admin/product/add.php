@@ -5,13 +5,6 @@
         </h2>
     </div>
     <div class="grid grid-cols-11 gap-x-6 mt-5 pb-20">
-        <!-- BEGIN: Notification -->
-        <div class="intro-y col-span-11 alert alert-primary alert-dismissible show flex items-center mb-6" role="alert">
-            <span><i data-lucide="info" class="w-4 h-4 mr-2"></i></span>
-            <span>Starting May 10, 2021, there will be changes to the Terms & Conditions regarding the number of products that may be added by the Seller. <a href="https://themeforest.net/item/midone-jquery-tailwindcss-html-admin-template/26366820" class="underline ml-1" target="blank">Learn More</a></span>
-            <button type="button" class="btn-close text-white" data-tw-dismiss="alert" aria-label="Close"> <i data-lucide="x" class="w-4 h-4"></i> </button>
-        </div>
-        <!-- BEGIN: Notification -->
         <div class="intro-y col-span-11 2xl:col-span-9">
             <form action="<?= site_url('admin/product/insert') ?>" method="post" enctype="multipart/form-data">
                 <!-- BEGIN: Uplaod Product -->
@@ -77,12 +70,8 @@
                                 <div class="w-full mt-3 xl:mt-0 flex-1">
                                     <select id="category" name="kategori" class="form-select">
                                         <option hidden>-- Select Categories --</option>
-                                        <option value="T-Shirt">T-Shirt</option>
-                                        <option value="Jacket">Jacket</option>
-                                        <option value="Shoes">Shoes</option>
-                                        <option value="Electronic">Electronic</option>
-                                        <option value="Kids & Baby">Kids &amp; Baby</option>
-                                        <option value="Fashion & Make Up">Fashion &amp; Make Up</option>
+                                        <option value="Skincare">Skincare</option>
+                                        <option value="Make Up">Make Up</option>
                                     </select>
                                 </div>
                             </div>

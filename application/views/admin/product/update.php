@@ -29,13 +29,8 @@
                                             <div class="mt-3">
                                                 <label for="update-profile-form-2" class="form-label">Categories</label>
                                                 <select id="category" name="kategori" class="form-select">
-                                                    <option selected hidden value="<?= $row->kategori ?>"><?= $row->kategori ?></option>
-                                                    <option value="T-Shirt">T-Shirt</option>
-                                                    <option value="Jacket">Jacket</option>
-                                                    <option value="Shoes">Shoes</option>
-                                                    <option value="Electronic">Electronic</option>
-                                                    <option value="Kids &amp; Baby">Kids &amp; Baby</option>
-                                                    <option value="Fashion &amp; Make Up">Fashion &amp; Make Up</option>
+                                                    <option value="Skincare">Skincare</option>
+                                                    <option value="Make Up">Make Up</option>
                                                 </select>
                                             </div>
                                         </div>
